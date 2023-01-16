@@ -1,0 +1,31 @@
+.card-container {
+   display: flex;
+   flex-direction: column;
+   background-color: #95dada4f;
+   border: 2px solid rgba(128, 128, 128, 0.338);
+   border-radius: 5px;
+   padding: 20px;
+   cursor: pointer;
+   -moz-osx-font-smoothing: grayscale;
+   backface-visibility: hidden;
+   transform: translateZ(0);
+   transition: transform 0.25s ease-out;
+}
+
+.card-container:hover {
+   transform: scale(1.01);
+   border-color: #0ccac4;
+}
+
+.card-container:hover img {
+   transform: scale(1.2);
+}
+
+.card-container img {
+   overflow: hidden;
+
+   width: 85%;
+   text-align: center;
+   align-self: center;
+   transition: transform 3s ease-out;
+}

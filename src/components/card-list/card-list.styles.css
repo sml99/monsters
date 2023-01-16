@@ -1,0 +1,18 @@
+.card-list {
+   width: 95vw;
+   height: 60vh;
+   margin: 0;
+   overflow-y: scroll;
+   margin: 0;
+   padding: 15px 30px;
+   display: grid;
+   grid-template-columns: repeat(5, 1Fr);
+   grid-gap: 20px;
+   text-align: center;
+   color: #0ccac4;
+}
+
+.card-list h2 {
+   font-size: 36px;
+   text-shadow: #fff 1px 3px;
+}
